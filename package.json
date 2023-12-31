@@ -1,0 +1,25 @@
+{
+  "name": "fe-spec",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "init": "pnpm install --no-frozen-lockfile",
+    "lint": "markdownlint README.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commitizen": "^4.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

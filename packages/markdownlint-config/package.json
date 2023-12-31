@@ -1,0 +1,22 @@
+{
+  "name": "@fe-spec/markdownlint-config",
+  "version": "1.0.0",
+  "description": "markdown spec",
+  "main": "index.json",
+  "keywords": [
+    "markdown",
+    "lint"
+  ],
+  "author": "ythvg",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint": "^0.32.1"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.32.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
